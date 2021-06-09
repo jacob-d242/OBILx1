@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    /*background-image: url(../img/call-to-action-bg.jpg);*/
+    background-size: cover;
+    background-position: center;
+}
+.sign-up-form{
+    width:300px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    background:fff;
+    padding:20px;
+    border-radius: 10px;
+    margin:8% auto 0;
+    text-align:center;
+}
+.sign-up-form h1{
+    color: orchid;
+    margin-bottom: 30px;
+}
+.input-box, .list-box{
+    border-radius: 18px;
+    padding:10px;
+    margin:10px 0;
+    width:100%;
+    border: 1px solid #999;
+    outline:none;
+}
+button{
+    color:#fff;
+    width:100%;
+    padding: 10px;
+    border-radius: 18px;
+    font-size:15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor:pointer;
+}
+ button:hover{
+    background-color: purple;
+}
+a:hover{
+    color: #111;
+}
+.sign-btn{
+    background-color: orchid;
+}
+a{
+    text-decoration:underline;
+    color:orchid;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+    color: #111;
+}
+.or{
+    background: #fff;
+    width:30px;
+    margin:-19px auto 10px; 
+}
+img{
+    width: 70px;
+    margin-top: -50px;
+    border-radius: 50px;
+}
+.error_message{
+    width:100%;
+    margin: top 0.25em;
+    font: size 0.875em;
+    color: red;
+}
+.hide{
+    display: none;
+}

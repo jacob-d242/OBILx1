@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+  <div class="sign-up-form">
+    <img src="img/favicon.png">
+    <h1>Sign up</h1>
+    <form onsubmit="return matchpass()">
+      <input type="text" class="input-box" placeholder="Your Name" autofocus>
+      <div class="error_message hide" >select country</div>
+      <input type="text" class="list-box" placeholder="Country" > 
+      <div class="error_message hide" >select country</div>
+      <input type="telephone" class="input-box" placeholder="Phone">
+      <div class="error_message hide" >select country</div>
+      <input type="email" class="input-box" placeholder="Your email" >
+      <div class="error_message hide" >select country</div>
+      <input type="text" class="input-box" placeholder="Username">
+      <div class="error_message hide" >select country</div>
+      <input type="password" class="input-box" placeholder="password" name="password" >
+      <div class="error_message hide" >select country</div>
+      <input type="password" class="input-box" placeholder="password" name="password" >
+      <div class="error_message hide" >select country</div>
+      <input type="password" class="input-box" placeholder="Repeat password">
+      <div class="error_message hide" >select country</div>
+      <p><span><input type="checkbox"></span>I agree to the T&C</p> 
+      <div class="error_message hide" >select country</div>
+      <button type="button" id="submitBtn" class="sign-btn">Sign up</button>
+      <hr>
+      <p class="or" >OR</p>
+      <p>Do you have an account?<a href="#">Sign In</a></p> </p>
+    </form>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>
