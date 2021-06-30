@@ -205,3 +205,12 @@
 
 })(jQuery);
 
+//toggle forms
+
+document.getElementById("withdraw-to").addEventListener("click", function () {
+  document.getElementsByClassName("modal")[0].classList.add("active");
+  console.log("2");
+});
+document.getElementById("Withdraw").addEventListener("click", function () {
+  document.getElementsByClassName("modal_close_bar")[0].classList.remove("active");
+});
